@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Date</title>
     <link rel="stylesheet" href="css/date.css" />
+    <style>
+      .video-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      video {
+        width: 640px;
+        height: 480px;
+      }
+    </style>
   </head>
   <body>
     <h1 title="choose a date">When can I steal you for a while?</h1>
@@ -17,5 +28,11 @@
         </button>
       </div>
     </form>
+    <div class="video-container">
+      <video autoplay>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </body>
 </html>
